@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teosss/git-test.git"
+  },
+  "author": "Viktor Reskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teosss/git-test/issues"
+  },
+  "homepage": "https://github.com/teosss/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
